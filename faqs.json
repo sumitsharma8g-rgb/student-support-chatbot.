@@ -1,0 +1,122 @@
+[
+  {
+    "category": "Admissions",
+    "question": "How can I apply for admission?",
+    "examples": [
+      "admission process",
+      "how do I get admission",
+      "where can I apply for college"
+    ],
+    "answer": "For admission, check your institution's official admission portal and follow the published eligibility criteria, application steps, and deadlines. Keep your academic documents and identity proof ready. This demo does not have access to live admission records."
+  },
+  {
+    "category": "Fees",
+    "question": "How can I pay my college fees?",
+    "examples": [
+      "fee payment process",
+      "where do I submit fees",
+      "how to pay tuition"
+    ],
+    "answer": "Use the fee payment method officially provided by your college, such as its student portal or accounts office. Confirm the amount and due date before paying, and save the receipt. Contact the accounts office if a payment is not reflected."
+  },
+  {
+    "category": "Examinations",
+    "question": "Where can I find the exam timetable?",
+    "examples": [
+      "exam dates",
+      "when are my exams",
+      "exam schedule"
+    ],
+    "answer": "Check your college or university's official examination portal and notice board for the latest timetable. Confirm your course, semester, subject codes, and reporting time. This sample chatbot cannot retrieve live timetable updates."
+  },
+  {
+    "category": "Results",
+    "question": "How can I check my exam results?",
+    "examples": [
+      "result declaration",
+      "where are semester results",
+      "check marks"
+    ],
+    "answer": "Check the official university result portal using the credentials or roll number requested by the portal. If your result is missing or contains an error, contact the examination cell with your details and supporting documents."
+  },
+  {
+    "category": "Attendance",
+    "question": "What should I do if my attendance is low?",
+    "examples": [
+      "attendance shortage",
+      "minimum attendance",
+      "short attendance"
+    ],
+    "answer": "Contact your faculty advisor or department office as early as possible. Ask for your recorded attendance, the applicable attendance rules, and any permitted process for resolving discrepancies. Do not rely on this demo for official eligibility decisions."
+  },
+  {
+    "category": "Library",
+    "question": "How can I borrow a book from the library?",
+    "examples": [
+      "library book issue",
+      "borrow books",
+      "library membership"
+    ],
+    "answer": "Use your student ID and follow your institution library's borrowing rules. Check the catalogue for availability, confirm the return date, and ask library staff about renewals, fines, and access to digital resources."
+  },
+  {
+    "category": "Scholarships",
+    "question": "Where can I get scholarship information?",
+    "examples": [
+      "financial aid",
+      "scholarship application",
+      "scholarship eligibility"
+    ],
+    "answer": "Check official government scholarship portals and your college scholarship or student welfare office. Review eligibility, income and category requirements where applicable, deadlines, and required documents. Never share passwords or OTPs with unofficial agents."
+  },
+  {
+    "category": "Certificates",
+    "question": "How do I request a bonafide or student certificate?",
+    "examples": [
+      "need a bonafide certificate",
+      "student certificate request",
+      "get college certificate"
+    ],
+    "answer": "Contact your department office or student administration section and ask for the prescribed application process. Confirm whether an online form, fee, identity proof, or faculty approval is required."
+  },
+  {
+    "category": "Technical Support",
+    "question": "I cannot log in to the student portal. What should I do?",
+    "examples": [
+      "portal login problem",
+      "forgot password",
+      "student account not working"
+    ],
+    "answer": "Check your internet connection and confirm that you are using the correct official portal. Use the portal's password-reset option if available. If the issue continues, contact IT support; do not share your password or OTP in chat."
+  },
+  {
+    "category": "Class Schedule",
+    "question": "Where can I find my class timetable?",
+    "examples": [
+      "lecture schedule",
+      "class timings",
+      "daily timetable"
+    ],
+    "answer": "Check the timetable shared by your department or published on the official student portal or notice board. Verify your semester, section, and any updated room or timing notices."
+  },
+  {
+    "category": "Placements",
+    "question": "How can I get placement assistance?",
+    "examples": [
+      "placement cell",
+      "campus recruitment",
+      "job opportunities for students"
+    ],
+    "answer": "Contact your college placement and training cell for eligibility rules, registration dates, company notices, resume guidance, and placement preparation sessions. Use official college channels to verify opportunities."
+  },
+  {
+    "category": "Contact",
+    "question": "Whom should I contact for student support?",
+    "examples": [
+      "help desk contact",
+      "student affairs office",
+      "who can help me"
+    ],
+    "answer": "Start with your department office, faculty advisor, student affairs office, or official college help desk. For urgent administrative issues, explain the issue clearly and include your course, semester, and relevant reference number—never include passwords or OTPs."
+  }
+]
