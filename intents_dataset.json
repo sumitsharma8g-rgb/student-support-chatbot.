@@ -1,0 +1,241 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "description": "General greetings and conversation starters",
+      "patterns": [
+        "hello",
+        "hi there",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hi student support",
+        "is anyone there",
+        "help me please",
+        "greetings",
+        "howdy"
+      ],
+      "responses": [
+        "Hello! Welcome to the University Student Support Desk. How can I assist you today? You can ask about admissions, tuition fees, course registration, exams, hostel, library, or support tickets.",
+        "Hi there! I'm your AI Student Support Assistant. Ask me anything about academics, campus facilities, scholarships, exam schedules, or raise a support ticket!"
+      ]
+    },
+    {
+      "tag": "admissions",
+      "description": "Admission requirements, deadlines, application process, and eligibility",
+      "patterns": [
+        "apply for admission",
+        "admission process and guidelines",
+        "admission deadline for fall semester",
+        "eligibility criteria for admission",
+        "when do admissions open",
+        "documents needed required for undergraduate admission",
+        "entrance exam requirements for admission",
+        "check my admission application status",
+        "undergraduate postgraduate admission procedure",
+        "minimum percentage required for admission",
+        "transfer student admission"
+      ],
+      "responses": [
+        "Admissions are open online through the University Admissions Portal.\n• Application Window: March 1 – July 15 (Fall Intake) & October 1 – November 30 (Spring Intake)\n• Eligibility: Minimum 60% aggregate in qualifying examinations (55% for reserved categories) + valid Entrance Test score.\n• Required Documents: Transcripts, Transfer Certificate, ID Proof, Passport Photos, and Category Certificate (if applicable).\n• Tip: Share a program name (e.g., 'B.Tech', 'MBA', 'B.Sc', 'MCA') to view program-specific tuition and eligibility details!"
+      ]
+    },
+    {
+      "tag": "fees_and_scholarships",
+      "description": "Tuition fees, payment deadlines, installment plans, and scholarships",
+      "patterns": [
+        "fee structure and tuition fee",
+        "how much is the tuition fee",
+        "fee payment deadline",
+        "apply for a scholarship and scholarship criteria",
+        "financial aid and merit scholarships",
+        "pay fees in installments",
+        "late fee penalty charges",
+        "btech tuition fee per semester",
+        "mba tuition fee structure",
+        "mca and bsc semester fees",
+        "download fee receipt"
+      ],
+      "responses": [
+        "Here is the overview of Tuition Fees & Financial Aid:\n• Payment Modes: Online via Student ERP Portal (NetBanking, UPI, Credit/Debit Card, or Demand Draft).\n• Due Dates: August 10 (Odd Semester) and January 10 (Even Semester). Late fee is ₹500/week after the deadline.\n• Scholarships Available:\n  1. Merit Scholarship: 50% tuition waiver for CGPA >= 9.0 or top 5% entrance rank.\n  2. Need-Based Financial Aid: Up to 75% tuition support for family income below ₹3,00,000/year.\n  3. Sports & Cultural Excellence Scholarship: 25%–100% fee waiver.\n• Mention a specific program (e.g., 'B.Tech', 'MBA', 'MCA', 'B.Sc') to get the exact semester-wise fee breakdown."
+      ]
+    },
+    {
+      "tag": "course_registration",
+      "description": "Adding/dropping courses, credit limits, electives, and academic registration",
+      "patterns": [
+        "register for courses this semester",
+        "when does course registration start",
+        "add or drop a course subject",
+        "credits can i register for this semester",
+        "maximum credits allowed per semester",
+        "choose open electives",
+        "course registration portal error",
+        "prerequisite waiver request",
+        "deadline to drop a subject",
+        "syllabus and course catalog",
+        "credit requirements for graduation"
+      ],
+      "responses": [
+        "Course Registration Guidelines:\n• Registration Window: Opens 2 weeks prior to each semester on the Student Academic ERP.\n• Credit Limits: Minimum 16 credits, Maximum 24 credits per regular semester (up to 28 with Dean's approval for CGPA >= 8.5).\n• Add/Drop Period: First 10 working days of the semester with zero penalty.\n• Course Withdrawal ('W' Grade): Allowed up to Week 8 of the semester.\n• If you mention a course code (such as CS101, CS204, CS305, MA102, MB301, EC202), I can look up its credits, instructor, and exam schedule!"
+      ]
+    },
+    {
+      "tag": "exams_and_grading",
+      "description": "Exam schedules, hall tickets, grading system, CGPA calculation, and revaluation",
+      "patterns": [
+        "when are the final exams",
+        "exam schedule and timetable",
+        "download admit card or hall ticket",
+        "how is cgpa calculated",
+        "grading scale and passing marks",
+        "apply for paper revaluation or rechecking",
+        "midterm exam dates",
+        "backlog or supplementary exam registration",
+        "when will semester results be declared",
+        "minimum attendance required for exams",
+        "exam date and instructor for cs101 cs305"
+      ],
+      "responses": [
+        "Examinations & Evaluation Policy:\n• Weightage: Continuous Internal Assessment (40%: Quizzes 10%, Assignments 10%, Mid-Term 20%) + End-Semester Exam (60%).\n• Attendance Requirement: Minimum 75% attendance is mandatory to download the Hall Ticket (condonation up to 65% strictly on medical grounds).\n• 10-Point Grading Scale: O (10), A+ (9), A (8), B+ (7), B (6), C (5), P (4), F (0 - Fail).\n• Revaluation: Apply within 7 days of result declaration via ERP (₹300 per course).\n• Tip: Ask with a course code like 'Exam schedule for CS101' or 'Details for MA102' for exact dates and venues!"
+      ]
+    },
+    {
+      "tag": "library_services",
+      "description": "Library timings, book borrowing limits, overdue fines, and digital library access",
+      "patterns": [
+        "library timings and opening hours",
+        "books can i borrow from the library",
+        "library late fine per day",
+        "access ieee and springer digital library",
+        "renew borrowed library books online",
+        "lost library book replacement policy",
+        "reading room open 24x7",
+        "library membership card issue",
+        "remote access to e-journals"
+      ],
+      "responses": [
+        "Central Library & Digital Resource Center:\n• Operating Hours: Mon–Sat 8:00 AM – 10:00 PM | Sundays & Holidays 9:00 AM – 5:00 PM (24x7 Reading Hall open during exams).\n• Borrowing Privileges: UG Students: 4 books for 14 days | PG Students: 6 books for 21 days | Research Scholars: 8 books for 30 days.\n• Overdue Fine: ₹5 per day per book for the first 14 days, ₹10 per day thereafter.\n• Digital Library: Remote access to IEEE Xplore, SpringerLink, ACM Digital Library, and NPTEL via your institutional email on the Knimbus/EZproxy portal."
+      ]
+    },
+    {
+      "tag": "hostel_and_facilities",
+      "description": "Hostel accommodation, mess timings, Wi-Fi, medical center, and transport",
+      "patterns": [
+        "apply for hostel accommodation",
+        "hostel charges fee and mess charges",
+        "hostel curfew and gate timings",
+        "campus shuttle bus timings",
+        "medical center and ambulance number",
+        "guest house booking for parents",
+        "hostel room change request",
+        "mess menu and dining hours",
+        "sports complex and gym timings"
+      ],
+      "responses": [
+        "Hostel, Dining & Campus Facilities:\n• Hostel Allocation: Allotted on a first-come, distance-priority basis via the HMS Portal. Options: Single, Double, and Triple occupancy (AC & Non-AC).\n• Hostel & Mess Charges: Non-AC Double: ₹45,000/sem | AC Double: ₹62,000/sem | Mess Plan: ₹24,000/sem (includes breakfast, lunch, evening snacks, and dinner).\n• Gate Timings: Main campus entry open until 10:30 PM; late academic lab passes available via Faculty Advisor.\n• 24x7 Campus Health Center: Located in Block D (Emergency Helpline: +91-121-2550108)."
+      ]
+    },
+    {
+      "tag": "it_helpdesk",
+      "description": "Student ERP password reset, campus Wi-Fi, institutional email, and LMS issues",
+      "patterns": [
+        "forgot my student erp login password",
+        "reset student portal login password",
+        "campus wifi is not working connecting",
+        "configure university email on phone",
+        "lms moodle courses not visible",
+        "software license for matlab and office 365",
+        "netid account locked",
+        "vpn access for lab servers"
+      ],
+      "responses": [
+        "IT Helpdesk & Digital Services:\n• Password Reset: Click 'Forgot Password' on the ERP login page to receive an OTP on your registered mobile, or email ithelpdesk@university.edu.\n• Campus Wi-Fi ('UniNet-5G'): Log in using your Student ID (e.g., STU2026001) and ERP password. Register up to 3 device MAC addresses.\n• Free Software Suite: Active students receive Microsoft 365, GitHub Student Developer Pack, MATLAB Campus-Wide License, and AutoCAD Education free with their @university.edu email."
+      ]
+    },
+    {
+      "tag": "career_and_placements",
+      "description": "Internships, campus placements, resume reviews, and training cell",
+      "patterns": [
+        "when does campus placement season start",
+        "register for placement drives",
+        "internship opportunities and noc letter",
+        "get an internship noc from the placement cell",
+        "minimum cgpa required for placements",
+        "resume review and mock interviews",
+        "top recruiters visiting campus",
+        "training and placement cell contact"
+      ],
+      "responses": [
+        "Training, Internships & Career Placement Cell (T&P):\n• Placement Registration: Opens in 6th Semester (UG) / 2nd Semester (PG) on the Superset/T&P Portal.\n• Internship NOC & Bonafide: Generate automatically under 'ERP -> Student Services -> Certificates & NOC' within 24 hours.\n• Career Prep Services: Weekly mock technical interviews, aptitude bootcamps, and 1-on-1 resume clinics every Wednesday & Friday (2:00 PM – 5:00 PM, Placement Block Room 204)."
+      ]
+    },
+    {
+      "tag": "counseling_and_wellness",
+      "description": "Student counseling, stress management, mentorship, and anti-ragging support",
+      "patterns": [
+        "feeling stressed about exams book counseling",
+        "book a counseling appointment session",
+        "mental health and student wellness center",
+        "anti ragging helpline number",
+        "talk to a student counselor",
+        "academic anxiety and mentorship",
+        "grievance redressal committee"
+      ],
+      "responses": [
+        "Student Wellness, Counseling & Grievance Support:\n• Confidential Counseling: Free, strictly confidential 1-on-1 sessions with certified counselors at the Wellness Center (Block B, Ground Floor, Mon–Fri 9:00 AM – 6:00 PM).\n• 24x7 Student Support Helpline: +91-121-2550999 | Email: wellness@university.edu\n• Anti-Ragging & Grievance Cell: 24x7 Toll-Free Helpline 1800-180-5522 or submit an anonymous report via the ERP Grievance tab."
+      ]
+    },
+    {
+      "tag": "create_ticket",
+      "description": "Raise a new support ticket or escalate an unresolved issue to a human advisor",
+      "patterns": [
+        "raise a support ticket",
+        "create a complaint ticket",
+        "talk to a human advisor",
+        "escalate my issue to admin",
+        "submit a grievance ticket",
+        "open a helpdesk ticket for fee refund",
+        "log a maintenance issue",
+        "report a problem with my marksheet"
+      ],
+      "responses": [
+        "I can create an official Student Support Ticket for you right away."
+      ]
+    },
+    {
+      "tag": "check_ticket",
+      "description": "Check the status of an existing support ticket or student profile",
+      "patterns": [
+        "check my ticket status",
+        "status of ticket TKT-1001",
+        "track support ticket",
+        "is my ticket resolved",
+        "lookup ticket status",
+        "check student profile record for STU2026001"
+      ],
+      "responses": [
+        "Let me check our database for your support ticket or student record."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "description": "Ending the conversation or thanking the bot",
+      "patterns": [
+        "thank you so much",
+        "thanks for your help",
+        "bye",
+        "goodbye",
+        "see you later",
+        "that is all for now",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "You're most welcome! Wishing you a great semester ahead. Feel free to reach out anytime you need student support!",
+        "Happy to help! Good luck with your studies, and have a wonderful day on campus!"
+      ]
+    }
+  ]
+}
