@@ -1,0 +1,4 @@
+# Project 1: AI Chatbot for Student Support Services
+# Runs out-of-the-box with Python 3.8+ standard library (sqlite3, re, http.server, math, json).
+# Optional ML dependency for TF-IDF + Logistic Regression pipeline:
+scikit-learn>=1.2.0
